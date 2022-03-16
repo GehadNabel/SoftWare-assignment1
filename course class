@@ -65,7 +65,7 @@ public class Course {
             if (course.canTakeFinalExam()) {
                 System.out.println("Student " + course.getStudent().getName() + " can take the final exam");
             } else {
-                System.out.println("Student " + course.getStudent().getName() + " can not take the final ");
+                System.out.println("Student " + course.getStudent().getName() + " You Can't take the final becouse you fail ");
             }
         }
 }
